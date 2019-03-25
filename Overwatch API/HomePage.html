@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class= "htmlcenter">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="OverStyle.css" />
+    <video autoplay muted loop id="myVideo">
+        <source src="https://d3hmvhl7ru3t12.cloudfront.net/video/pages/home/header-04cd3f46c6.webm" type="video/mp4">
+    </video>
+</head>
+<body>
+    <p>
+        <h1>
+        <a href="https://playoverwatch.com">
+        <img src = "old-overwatch-logo-png-10.png" alt ="Overwatch Emblem" 
+        title="Link To Overwatch.com" style="width:420px; height:210px;">
+        </a>
+        </h1>
+    </p>
+
+
+    <main class = "home-search">
+        <fieldset>
+            <legend>bNet for PC in the United States</legend>
+            <p id = "overwatchState"></p>
+            <center>
+            <div id="container">
+                <input type="text" id="input-area" placeholder="BattleTag-9999">
+                <br>
+                <button id="submit-btn">Search bNet</button>
+            </div>
+            </center>
+        </fieldset>
+    </main>
+    
+    <script src="OverwatchAPI.js"></script>
+</body>
+
+
+<footer>
+    <br><br>
+        <div class="footer">
+            Does not endorse or reflect the views/opinions of Blizzard nor 
+            anyone involved in producing or managing Overwatch. Overwatch and Blizzard 
+            are registered trademarks of Blizzard Entertainment, Inc. Overwatch 
+            © Blizzard Entertainment, Inc.
+        </div>
+</footer>
+</html>

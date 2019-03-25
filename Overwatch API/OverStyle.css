@@ -1,0 +1,236 @@
+h1 
+{
+    width: auto;
+    filter: brightness(1);
+    text-align: center;
+}
+  
+
+#PNFReaper
+{
+    text-align:center;
+    color:#ffffffec;
+}
+
+
+#myVideo 
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+
+.nav
+{
+    font-size: 20px;
+    font-weight: 900;
+    border:1px solid rgba(164, 167, 3, 0.781);
+    border-width:1px 0;        
+    margin:0;
+    padding:0;
+    text-align:center;
+    width: 100%;
+    background-color: rgba(1, 200, 235, 0.514);
+    overflow: auto;
+}
+
+
+.nav li
+{
+    text-decoration: none;
+    display:inline;
+}
+
+
+.nav a
+{
+    text-decoration: none;
+    display:inline-block;
+    padding:10px;
+}
+
+
+li a:hover 
+{
+    border-radius: 20px;
+    -webkit-box-shadow: -7px 0px 10px 0px rgba(255, 251, 0, 0.664), 7px 0px 10px 0px rgba(255, 251, 0, 0.664);
+    -moz-box-shadow: -7px 0px 20px 0px rgba(255, 251, 0, 0.664), 7px 0px 20px 0px rgba(255, 251, 0, 0.664);
+    box-shadow: -7px 0px 10px 0px rgba(255, 251, 0, 0.664), rgba(255, 251, 0, 0.664);  
+    background-color: rgba(255, 251, 0, 0.623);
+    width:100px;
+}
+
+
+body 
+{
+    background: #1b327ee0;
+    color: rgb(0, 0, 0);
+    line-height: 24px;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+}
+
+
+.junkrat
+{
+    height: 20%;
+    width: 20%;
+    float:left;
+    margin: -30px;
+    transform: scaleX(-1);
+}
+
+
+fieldset 
+{
+    -webkit-box-shadow: 0px -14px 93px 13px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -14px 93px 13px rgba(0,0,0,1);
+    box-shadow: 0px -14px 93px 13px rgba(0,0,0,1);
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    background: #1875b3b7;
+}
+
+
+legend 
+{ 
+    color:rgb(0, 0, 0);
+    background-color:rgba(201, 198, 12, 0.966);
+    border-radius: 4px;
+}
+
+
+main.home-search div input[type=text] 
+{
+    -webkit-box-shadow: inset 0px 0px 64px 6px rgba(162,168,45,1);
+    -moz-box-shadow: inset 0px 0px 64px 6px rgba(162,168,45,1);
+    box-shadow: inset 0px 0px 64px 6px rgba(162,168,45,1);
+    border-radius: 5px;
+    border-width: 1.5px;
+    display: inline-block;
+    text-align: center;
+    width: 380px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    vertical-align: middle;
+    border-color: rgba(228, 253, 0, 0.144);
+    transform: skew(-0.30rad);
+}
+
+
+#submit-btn
+{
+    -webkit-box-shadow: 0px 0px 273px 38px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 273px 38px rgba(0,0,0,1);
+    box-shadow: 0px 0px 273px 38px rgba(0,0,0,1);
+    border-radius: 5px;
+    border-width: 1.5px;
+    background-color: rgba(45, 178, 202, 0.719); 
+    border-color:  rgba(215, 236, 23, 0.932);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: rgb(0, 0, 0);
+    padding: 3px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+#submit-btn:hover
+{
+    background-color: rgba(196, 199, 25, 0.507);
+}
+
+
+#rating
+{
+    text-shadow: 2px 2px 4px rgba(109, 2, 2, 0.87);
+    font-weight: 700;
+    color: rgba(241, 60, 28, 0.89);
+    line-height: 20px;
+    font-size: 40px;
+}
+
+
+#battleTagName
+{
+    text-align:center;
+    font: 48px/1 'Erica One';
+    text-shadow: 2px 1px 1px rgb(137, 139, 4);
+    font-weight: 700;
+    color: rgba(228, 195, 9, 0.89);
+    line-height: 60px;
+    font-size: 40px;
+}
+
+
+#levelstats
+{
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 300;
+    color: rgb(255, 219, 14);
+    line-height: 20px;
+    font-size: 20px;
+}
+
+
+#comp
+{
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 300;
+    color: rgb(255, 219, 14);
+    line-height: 1px;
+    font-size: 20px;
+}
+
+
+footer
+{
+    font-size:5;
+    position:center;
+    bottom: 0;
+    width: 100%;
+}
+  
+
+.footer 
+{
+    -webkit-box-shadow: 4px 16px 93px 13px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 16px 93px 13px rgba(0,0,0,1);
+    box-shadow: 4px 16px 93px 13px rgba(0,0,0,1);
+    border-radius: 15px;
+    background: rgba(9, 9, 121, 0.76);
+    height: 100px;
+    margin: auto;
+    width: 400px;
+    text-align:center;
+    padding:10px;
+    color:#fcfcfcb0;
+}
+
+
+.pnf
+{
+    font-weight: 700;
+    text-align: center;
+    font-size:8;
+    color:#ffffffec;
+}
+
+
+.float
+{
+    clear: left;
+}
